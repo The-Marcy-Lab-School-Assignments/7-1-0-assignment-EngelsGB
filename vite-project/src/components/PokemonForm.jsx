@@ -33,19 +33,19 @@ const PokemonForm = () => {
                 <div className="four fields" widths="equal">
                     <div className="field ui fluid">
                         <label>Name</label>
-                        <input type="text" name="name" placeholder="Name" value={name} onChange={(e) => setName(e.target.value)}/>
+                        <input type="text" name="name" placeholder="Name" value={name} onChange={(e) => setName(e.target.value)} required/>
                     </div>
                     <div className="field ui fluid">
                         <label>HP</label>
-                        <input type="text" name="hp" placeholder="HP" value={hp} onChange={(e) => setHP(e.target.value)}/>
+                        <input type="text" name="hp" placeholder="HP" value={hp} onChange={(e) => setHP(e.target.value)} required/>
                     </div>
                     <div className="field ui fluid">
                         <label>Front Image URL</label>
-                        <input type="text" name="front" placeholder="url" value={front} onChange={(e) => setFront(e.target.value)}/>
+                        <input type="text" name="front" placeholder="url" value={front} onChange={(e) => setFront(e.target.value)} required/>
                     </div>
                     <div className="field ui fluid">
                         <label>Back Image URL</label>
-                        <input type="text" name="back" placeholder="url" value={back} onChange={(e) => setBack(e.target.value)}/>
+                        <input type="text" name="back" placeholder="url" value={back} onChange={(e) => setBack(e.target.value)} required/>
                     </div>
                 </div>
                 <button className="ui button" type="submit">Submit</button>

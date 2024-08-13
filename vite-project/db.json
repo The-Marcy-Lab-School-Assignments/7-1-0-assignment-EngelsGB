@@ -97,6 +97,13 @@
       "hp": "53",
       "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/12.png",
       "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/12.png"
+    },
+    {
+      "id": "8f4c",
+      "name": "",
+      "hp": "",
+      "front": "",
+      "back": ""
     }
   ]
 }
