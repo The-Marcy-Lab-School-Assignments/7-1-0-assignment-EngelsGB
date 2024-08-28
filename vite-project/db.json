@@ -104,6 +104,13 @@
       "hp": "",
       "front": "",
       "back": ""
+    },
+    {
+      "name": "pikachu",
+      "hp": "40",
+      "front": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/025.png",
+      "back": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/020.png",
+      "id": "HDgef-C"
     }
   ]
 }
